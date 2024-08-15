@@ -289,7 +289,7 @@ main#servicos h3 span {
   padding: 5px;
 }
 .parceiros-box article img {
-  width: 60px;
+  width: 70px;
   border-radius: 20px;
   display: block;
   height: 100%;
@@ -303,7 +303,7 @@ main#servicos h3 span {
 
 .parceiros-box article p {
   font-size: 0.9em;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 .parceiros-box article p .nome{
  font-weight: bold;
