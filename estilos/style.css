@@ -263,6 +263,7 @@ main#servicos h3 span {
   background: url(../img/img4.jpg) no-repeat center center/cover;
   height: 50%;
   width: 100%;
+  background-attachment: fixed;
 }
 
 #about .bg-dark article p {
