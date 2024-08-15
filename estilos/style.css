@@ -286,6 +286,7 @@ main#servicos h3 span {
 .parceiros-box article {
   background-color: rgba(0, 0, 0, 0.267);
   border-radius: 20px;
+  padding: 5px;
 }
 .parceiros-box article img {
   width: 60px;
