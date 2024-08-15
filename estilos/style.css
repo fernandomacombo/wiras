@@ -179,10 +179,12 @@ main#servicos h3 span {
   flex-wrap: wrap-reverse;
 }
 
-.section-box .imagens #img-m {
+.section-box .imagens #img-m1 {
+     background: url(/img/img1.jpg) no-repeat cover;
   flex: auto;
   width: 47%;
   margin: 5px;
+  height: 200px;
 }
 
 .section-box p {
@@ -317,4 +319,18 @@ main#servicos h3 span {
      color: rgb(80, 82, 82);
      display:block;
      text-align: right;
+    }
+
+    .parceiros-logo{
+     padding: 20px;
+    }
+
+   
+    .parceiros-logo a img{
+     border-radius: 50%;
+     width: 50px;
+    }
+
+    .parceiros-logo a img:hover{
+     filter: drop-shadow(0 0 5px rgba(5, 7, 136, 0.466));
     }
