@@ -421,3 +421,30 @@ h3 {
 .contact-box .wrap .wrap-box .content-box-left {
   padding: 10px 0;
 }
+
+
+.label-wrap{
+  background-color: #7084f5;
+  display: flex;
+  margin: 10px;
+  text-align: left;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  
+}
+
+.label-wrap label{
+  font-size: 2em;
+  margin: 6px;
+}
+
+.label-wrap input{
+ width:100%;
+ border-radius: 20px;
+ border: none;
+}
+
+.label-wrap input:focus{
+border: 1px solid white;
+ }
