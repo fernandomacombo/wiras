@@ -374,6 +374,7 @@ main#servicos h3 span {
 
   width: 100%;
   height: 100%;
+  
 }
 
 .contact-box .wrap .wrap-box {
@@ -384,6 +385,10 @@ main#servicos h3 span {
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
+}
+
+.content-box-left{
+  margin-bottom: 20px;
 }
 
 .contact-box .wrap .wrap-box .content-box-left h1,
