@@ -298,14 +298,23 @@ main#servicos h3 span {
 .parceiros-box article {
   display: flex;
   align-items: center;
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 
 .parceiros-box article p {
   font-size: 0.9em;
   margin: 0 5px;
+  text-align: left;
 }
 .parceiros-box article p .nome{
  font-weight: bold;
- color: var(--bg-link);
+ color:rgb(62, 27, 221);
 }
+
+.parceiros-box article p .data{
+     font-style: italic;
+     font-size: small;
+     color: rgb(80, 82, 82);
+     display:block;
+     text-align: right;
+    }
