@@ -368,3 +368,21 @@ main#servicos h3 span {
     .parceiros-logo a img:hover{
      filter: drop-shadow(0 0 5px rgba(5, 7, 136, 0.466));
     }
+
+    .contact-box{
+      background: url(/img/img4.jpg) no-repeat center/cover;
+      height: 100vh;
+      position: relative;
+    }
+
+    .contact-box .wrap{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #000000cc;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+    }
