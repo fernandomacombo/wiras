@@ -202,7 +202,7 @@ main#servicos h3 span {
 }
 
 #about {
-  background: url(../img/bg.jpg) no-repeat center center/cover;
+  background: url(../img/img6.jpg) no-repeat center center/cover;
   height: 100vh;
   position: relative;
   text-align: center;
@@ -215,7 +215,7 @@ main#servicos h3 span {
 #about .bg-dark article {
   height: 80vh;
   width: 90%;
-  background-color: rgba(255, 255, 255, 0.116);
+  background-color: rgba(255, 255, 255, 0.459);
   align-items: center;
   position: absolute;
   top: 50%;
