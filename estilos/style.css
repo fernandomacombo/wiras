@@ -53,8 +53,10 @@ a {
 
 header {
   background: var(--bg) url(/img/bg.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
   height: 100vh;
   position: relative;
+
 }
 
 .logo {
