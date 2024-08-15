@@ -179,17 +179,47 @@ main#servicos h3 span {
   flex-wrap: wrap-reverse;
 }
 
+
+
 .section-box .imagens #img-m1 {
-     background: url(/img/img1.jpg) no-repeat cover;
-  flex: auto;
-  width: 47%;
-  margin: 5px;
-  height: 200px;
+   background: url(/img/img2.jpg) no-repeat center center/cover;
+}
+
+.section-box .imagens #img-m2 {
+     background: url(/img/img1.jpg) no-repeat center center/cover;
+  }
+.section-box .imagens #img-m3 {
+     background: url(/img/img3.jpg) no-repeat center center/cover;
+  }
+.section-box .imagens #img-m4 {
+     background: url(/img/img1.jpg) no-repeat center center/cover;
+  }
+.section-box .imagens #img-m5 {
+     background: url(/img/img1.jpg) no-repeat center center/cover;
+  }
+.section-box .imagens #img-m6 {
+     background: url(/img/img1.jpg) no-repeat center center/cover;
+  }
+.section-box .imagens #img-m7 {
+     background: url(/img/img1.jpg) no-repeat center center/cover;
+  }
+.section-box .imagens #img-m8 {
+     background: url(/img/img1.jpg) no-repeat center center/cover;
+  }
+
+.section-box .imagens .img-m{
+     flex: auto;
+     width: 47%;
+     margin: 5px;
+     height: 200px;
 }
 
 .section-box p {
   margin-bottom: 20px;
 }
+
+
+
 
 .section-box .imagens #img-m:nth-child(6) {
   display: none;
