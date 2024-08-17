@@ -20,9 +20,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-i{
-  font-size: 5em;
-}
 
 :root {
   --bg: #020231;
@@ -77,10 +74,10 @@ h1,
 h2,
 h3,
 h4 {
-  margin-bottom: 20px;
   font-size: 2.2em;
   color: white;
   font-family: var(--font2);
+  margin-bottom: 10px;
 }
 
 span {
@@ -104,26 +101,19 @@ header {
   position: relative;
 }
 
+#logo{
+  width: 50px;
+}
+
 .logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
+  font-size: 2em;
 }
 
-.logo a {
-  font-size: 1.2em;
-  color: white;
-}
 
-h1 a img {
-  width: 40px;
-  border-radius: 50%;
-}
-
-.item {
-  flex: auto;
-}
 
 header > .bg-dark nav {
   box-shadow: 0 0 10px #0000006b;
@@ -164,23 +154,12 @@ header > .bg-dark .header-box {
   margin: 20px 0;
 }
 
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 20
-}
-
-
 .icon {
-  background-color: #3446aa;
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
   border-radius: 50%;
   margin-bottom: 10px;
-  font-size: 30pem;
+  font-size: 2em;
 }
 
 .section-box .imagens {
@@ -398,10 +377,34 @@ hr {
 
 .content-box-left {
   margin-bottom: 20px;
+  display: none;
 }
 
 .contact-box .wrap .wrap-box .content-box-left {
   padding: 10px 0;
+}
+
+.contactos{
+  background-color: #ffffff6e;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contactos div{
+  display: flex;
+  align-items: center;
+  flex: auto;
+}
+
+.contactos div i,.contactos div span{
+  color:#ffffff;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:1.1em;
+  margin: 5px;
+  
 }
 
 .label-wrap {

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #burguer {
+    display: none;
+  }
+
+  .nav-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-box #item {
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+  }
+
+  .nav-box #item li .link {
+    background-color: transparent;
+    margin-left: 10px;
+  }
+
+  .nav-box #item li .link:hover {
+    border-bottom: 1px #3c5ef1 solid;
+  }
+}
