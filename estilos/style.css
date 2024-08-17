@@ -101,6 +101,10 @@ header {
   position: relative;
 }
 
+#item{
+  display: none;
+}
+
 #logo{
   width: 50px;
 }

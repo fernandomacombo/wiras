@@ -12,7 +12,7 @@
   }
 
   .nav-box #item {
-    display: flex;
+    display:block;
     margin: 0px;
     flex-direction: row;
   }
