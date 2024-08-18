@@ -61,16 +61,16 @@
 	
 	<div class="main-box mr-w">
 		<div id="" class="main-content">
-			<p class="icon"><i class="material-symbols-outlined">
-				cleaning
-			</i></p>
+			<i class="material-symbols-outlined icon">
+				<!-- cleaning -->
+			</i>
 			<h4>LIMPEZA</h4>
 			<p>esidência; Condominio; Pré e pós obra; Instituições comerciais; Locais públicas</p>
 		</div>
 
 		<div id="" class="main-content">
 			<i class="material-symbols-outlined icon">
-				local_car_wash
+				<!-- local_car_wash -->
 			</i>
 			<h4>CAR WASH (<span>Lavagem de Carros</span>)</h4>
 			<p>Seu carro merece um tratamento especial. 
@@ -80,8 +80,8 @@
 		</div>
 
 		<div id="" class="main-content">
-			<i class="material-symbols-outlined incon" >
-				local_laundry_service
+			<i class="material-symbols-outlined icon" >
+				<!-- local_laundry_service -->
 			</i>
 			<h4>LAVANDARIA</h4>
 			<p>Roupas limpas e frescas em pouco tempo. Confie em nossa
@@ -89,33 +89,35 @@
 		</div>
 
 		
-<section id="section-box">
-	<div class="section-box">
-		<hr>
-		<h3>O NOSSO <span>ORGULHO</span></h3>
-		<div>
-			<p>Veja o nosso orgulho em ação! Estas imagens destaca alguns
-				 dos trabalhos excepcionais que realizamos. Deixe-nos 
-				 mostrar a qualidade e o cuidado que dedicamos a cada 
-				 projeto. Veja as imagens descubra por que somos uma 
-				 escolha confiável para suas necessidades de limpeza e 
-				 serviços relacionados.
-			</p>
-			<div class="imagens">
-				<div id="img-m1" class="img-m" ></div>
-				<div id="img-m2" class="img-m" ></div>
-				<div id="img-m3" class="img-m" ></div>
-				<div id="img-m4" class="img-m" ></div>
-				<div id="img-m5" class="img-m" ></div>
-				<div id="img-m6" class="img-m" ></div>
-				<div id="img-m7" class="img-m" ></div>
-				<div id="img-m8" class="img-m" ></div>
-			</div>
-		</div>
-	</div>
-</section>
+
 
 	</div>
+
+	<section id="section-box">
+		<div class="section-box">
+			<hr>
+			<h3>O NOSSO <span>ORGULHO</span></h3>
+			<div>
+				<p>Veja o nosso orgulho em ação! Estas imagens destaca alguns
+					 dos trabalhos excepcionais que realizamos. Deixe-nos 
+					 mostrar a qualidade e o cuidado que dedicamos a cada 
+					 projeto. Veja as imagens descubra por que somos uma 
+					 escolha confiável para suas necessidades de limpeza e 
+					 serviços relacionados.
+				</p>
+				<div class="imagens">
+					<div id="img-m1" class="img-m" ></div>
+					<div id="img-m2" class="img-m" ></div>
+					<div id="img-m3" class="img-m" ></div>
+					<div id="img-m4" class="img-m" ></div>
+					<div id="img-m5" class="img-m" ></div>
+					<div id="img-m6" class="img-m" ></div>
+					<div id="img-m7" class="img-m" ></div>
+					<div id="img-m8" class="img-m" ></div>
+				</div>
+			</div>
+		</div>
+	</section>
 </main>
 
 <section id="about">
@@ -189,14 +191,16 @@
 				</p>
 			</article>
 			
-			<div class="parceiros-logo">
-
-				<a href=""><img src="img/logo1.jpg" alt=""></a>
-				<a href=""><img src="img/logo2.jpg" alt=""></a>
-				<a href=""><img src="img/logo3.jpg" alt=""></a>
-				<a href=""><img src="img/logo3.jpg" alt=""></a>
-			</div>
 			
+			
+		</div>
+
+		<div class="parceiros-logo">
+
+			<a href=""><img src="img/logo1.jpg" alt=""></a>
+			<a href=""><img src="img/logo2.jpg" alt=""></a>
+			<a href=""><img src="img/logo3.jpg" alt=""></a>
+			<a href=""><img src="img/logo3.jpg" alt=""></a>
 		</div>
 	</section>
 	
@@ -339,14 +343,14 @@
 
 <script>
 
-function mudarTamanho() {
-        if (window.innerWidth >= 768) {
-          item.style.display = "flex";
-        }
-        else {
-          item.style.display = "none";
-        }
-      }
+ function mudarTamanho() {
+         if (window.innerWidth >= 768) {
+           item.style.display = "block";
+         }
+         else {
+           item.style.display = "none";
+         }
+       }
 
 	function clickMenu(){
 if(item.style.display == "block"){

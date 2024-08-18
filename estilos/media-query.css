@@ -11,11 +11,15 @@
     align-items: center;
   }
 
-  .nav-box #item {
+  .nav-box #item{
     display:block;
     margin: 0px;
-    flex-direction: row;
   }
+
+  
+  .nav-box #item li{
+     display:inline-block;
+   }
 
   .nav-box #item li .link {
     background-color: transparent;
@@ -25,4 +29,28 @@
   .nav-box #item li .link:hover {
     border-bottom: 1px #3c5ef1 solid;
   }
+
+  .main-box {
+     display: flex;
+     flex-direction: row;
+   }
+
+  .main-content {
+     flex: auto;
+     margin: 20px 5px;
+     width: 33.3%;
+     background-color: rgba(0, 0, 0, 0.075);
+   }
+
+   .parceiros-box{
+     display:flex;
+     flex-wrap: wrap;
+   }
+
+   .parceiros-box article {
+    flex: auto;
+    width: 47%;
+    margin:0 10px;
+   }
+ 
 }

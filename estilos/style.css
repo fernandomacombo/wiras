@@ -156,6 +156,7 @@ header > .bg-dark .header-box {
 .main-content {
   flex: auto;
   margin: 20px 0;
+  padding: 10px;
 }
 
 .icon {
@@ -297,12 +298,7 @@ hr {
   text-align: center;
 }
 
-#parceiros h3 {
-  font-family: var(--font2);
-  font-weight: bold;
-  font-size: 1.5em;
-  padding-top: 10px;
-}
+
 
 
 .parceiros-box article {
