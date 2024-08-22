@@ -23,7 +23,7 @@
 
 :root {
   --bg: #020231;
-  --bg-link: #7084f5;
+  --bg-link: #5466ce;
   --font: bourton;
   --font2: bourton1;
 }
@@ -162,10 +162,8 @@ header > .bg-dark .header-box {
 .icon {
   display: inline-block;
   padding: 10px;
-  border-radius: 50%;
   margin-bottom: 10px;
   font-size: 2em;
-  color: white;
 }
 
 
@@ -462,9 +460,7 @@ input[type="submit"] {
 }
 
 .material-icons{
-  font-size: 3em !important;
+  font-size: 2em !important;
   color: white;
-  background-color: #3446aaab;
-  padding: 0.3em;
   border-radius: 50%;
 }
