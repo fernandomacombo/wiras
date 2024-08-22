@@ -219,7 +219,7 @@ header > .bg-dark .header-box {
   height: 95%;
   max-height: 95%;
   width: 90%;
-  background-color: rgba(245, 8, 8, 0.459);
+  background-color: rgba(179, 177, 177, 0.459);
   align-items: center;
   position: absolute;
   top: 50%;
@@ -233,6 +233,7 @@ header > .bg-dark .header-box {
 .wrap-objectivos div{
   width: 33%;
   padding: 2px;
+  text-align: center;
 
 }
 
