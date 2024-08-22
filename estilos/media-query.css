@@ -40,6 +40,7 @@
      margin: 20px 5px;
      width: 33.3%;
      background-color: rgba(0, 0, 0, 0.075);
+     align-items: center;
    }
 
    .parceiros-box{
@@ -52,5 +53,11 @@
     width: 47%;
     margin:10px 10px;
    }
+
+   .content-box-left{
+     display: block;
+}
  
 }
+
+
