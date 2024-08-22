@@ -165,7 +165,9 @@ header > .bg-dark .header-box {
   border-radius: 50%;
   margin-bottom: 10px;
   font-size: 2em;
+  color: white;
 }
+
 
 .section-box .imagens {
   display: flex;
@@ -299,8 +301,6 @@ hr {
 }
 
 
-.material-symbols-outlined {
-}
 
 
 
@@ -459,4 +459,12 @@ input[type="submit"] {
 
 .mapa{
   display: none;
+}
+
+.material-icons{
+  font-size: 3em !important;
+  color: white;
+  background-color: #3446aaab;
+  padding: 0.3em;
+  border-radius: 50%;
 }
