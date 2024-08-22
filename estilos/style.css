@@ -90,7 +90,6 @@ p {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: rgb(209, 208, 208);
   line-height: 1.2em;
-  margin-bottom: 20px;
   font-size: large;
 }
 
@@ -216,7 +215,7 @@ header > .bg-dark .header-box {
 }
 
 #about .bg-dark article {
-  height: 95%;
+  height: 95;
   max-height: 95%;
   width: 90%;
   background-color: rgba(179, 177, 177, 0.459);
@@ -227,11 +226,11 @@ header > .bg-dark .header-box {
   transform: translate(-50%, -50%);
   border-radius: 30px;
   overflow: hidden;
-  text-align: left;
+  text-align: center;
 }
 
 .wrap-objectivos div{
-  width: 33%;
+
   padding: 2px;
   text-align: center;
 
@@ -239,11 +238,12 @@ header > .bg-dark .header-box {
 
 .wrap-objectivos{
 display:flex;
+flex-direction: column;
 }
 
 #about .bg-dark article #img {
   background: url(../img/img4.jpg) no-repeat center center/cover;
-  height: 30%;
+
   width: 100%;
   background-attachment: fixed;
 }
