@@ -52,6 +52,7 @@ a {
   border-radius: 5px;
   padding: 10px;
   background-color: var(--bg-link);
+  margin-top:23px;
 }
 
 .link {
@@ -90,7 +91,6 @@ p {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: rgb(209, 208, 208);
   line-height: 1.2em;
-  font-size: large;
 }
 
 header {
