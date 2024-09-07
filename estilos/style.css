@@ -78,7 +78,7 @@ h4 {
   font-size: 2.2em;
   color: white;
   font-family: var(--font2);
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 span {
@@ -91,7 +91,7 @@ p {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: rgb(209, 208, 208);
   line-height: 1.2em;
-  margin-bottom: 20px; 
+  margin: 5px 0; 
 }
 
 header {
@@ -216,15 +216,15 @@ header > .bg-dark .header-box {
 }
 
 #about .bg-dark article {
-  height: 95;
-  max-height: 95%;
-  width: 90%;
+  height: 90;
+  max-height: 90%;
+  width: 95%;
   background-color: rgba(179, 177, 177, 0.459);
   align-items: center;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -52%);
   border-radius: 30px;
   overflow: hidden;
   text-align: center;
@@ -250,14 +250,14 @@ flex-direction: column;
 }
 
 #about .bg-dark article p {
-  padding: 10px 5px;
+  padding: 5px 5px;
 }
 
 #about h3 {
   font-family: var(--font2);
   font-weight: bold;
   font-size: 1.5em;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 #about h3 span {
