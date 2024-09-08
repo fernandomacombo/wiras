@@ -364,6 +364,22 @@
           item.style.display = "block";
         }
       }
+
+      // Toggle do menu
+function clickMenu() {
+  const menu = document.getElementById('item');
+  menu.classList.toggle('active');
+}
+
+// Responsivo
+function mudarTamanho() {
+  const largura = window.innerWidth;
+  const menu = document.getElementById('item');
+  if (largura > 768) {
+    menu.classList.remove('active');
+  }
+}
+
     </script>
   </body>
 </html>
