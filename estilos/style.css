@@ -234,7 +234,7 @@ header > .bg-dark .header-box {
 }
 
 #about .bg-dark article {
-  height: 90;
+  height: 90%;
   max-height: 90%;
   width: 95%;
   background-color: rgba(179, 177, 177, 0.459);
