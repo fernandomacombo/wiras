@@ -250,14 +250,15 @@ header > .bg-dark .header-box {
 
 }
 
-.wrap-objectivos div{
+#about article #img{
+  display: none;
+}
 
+#about article div{
   padding: 2px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-
+ 
 }
 
 .wrap-objectivos{
