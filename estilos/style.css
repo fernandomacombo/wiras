@@ -254,17 +254,17 @@ header > .bg-dark .header-box {
   display: none;
 }
 
-#about article div{
-  padding: 2px;
-  text-align: center;
-  align-items: center;
+ .embrulho1{
  
+  padding: 2px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100%;
 }
 
-.wrap-objectivos{
-display:flex;
-flex-direction: column;
-}
+
 
 #about .bg-dark article #img {
   background: url(../img/img4.jpg) no-repeat center center/cover;
@@ -276,12 +276,13 @@ flex-direction: column;
 #about .bg-dark article p {
   padding: 5px 5px;
   margin-bottom: 0px;
+  font-size:1em;
 }
 
 #about .wrap-objectivos h3 {
   font-family: var(--font2);
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.2em;
   padding: 5px 0;
 }
 
