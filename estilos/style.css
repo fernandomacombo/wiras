@@ -52,7 +52,7 @@ a {
   border-radius: 5px;
   padding: 10px;
   background-color: var(--bg-link);
-  margin-top:50px;
+  margin: 5px 0;
 }
 
 .link {
@@ -162,15 +162,16 @@ header > .bg-dark .header-box {
 
 .main-content {
   flex: auto;
-  margin: 20px 0;
-  padding: 10px;
+  margin: 5px 0;
+  padding: 5px;
 }
+
 
 .icon {
   display: inline-block;
   padding: 10px;
-  margin-bottom: 10px;
   font-size: 2em;
+  color:var(--bg-link);
 }
 
 
@@ -293,7 +294,6 @@ width: 100%;
 
 .r-pe-esquerdo a {
   display: inline-block;
-  background: none;
   color: black;
 }
 
@@ -303,16 +303,19 @@ width: 100%;
   justify-content: center;
   text-align: center;
   padding: 20px;
+ 
+  
 }
 
 .footer-box .roda-pe .r-pe-direito {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
 }
 
 .footer-box .roda-pe .r-pe-direito .footer-icon div{
 display: flex;
 justify-content:center ;
+
 
 }
 
@@ -421,10 +424,11 @@ hr {
 
 .contactos{
   background-color: #ffffff6e;
-  margin: 10px 0;
+  margin: 5px 0;
   padding: 10px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 
 }
 
@@ -434,7 +438,9 @@ hr {
   flex: auto;
 }
 
-.contactos div i,.contactos div span{
+.contactos div i{display: none;}
+
+.contactos div span{
   color:#ffffff;
   font-family:Arial, Helvetica, sans-serif;
   font-size:1.1em;
