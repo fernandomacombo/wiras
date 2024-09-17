@@ -41,6 +41,7 @@
      width: 33.3%;
      background-color: rgba(0, 0, 0, 0.089);
      align-items: center;
+     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.308);
    }
 
    .parceiros-box{
@@ -57,7 +58,42 @@
    .content-box-left{
      display: block;
 }
+
+.section-box .imagens #img-m7 {
+  background: url(../img/img7.jpg) no-repeat center center/cover;
+  display: block;
+}
+.section-box .imagens #img-m8 {
+  background: url(../img/img7.jpg) no-repeat center center/cover;
+  display: block;
+}
  
+
+
+#about .bg-dark article #img {
+  background: url(../img/img4.jpg) no-repeat center center/cover;
+  height: 100%;
+  width: 35%;
+  background-attachment: fixed;
+  display: block;
+  opacity: 1;
+  
+}
+
+.embrulho1{
+ 
+  padding: 2px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-20%, -50%);
+width: 60%;
+}
+
+#about .bg-dark article {
+  display: flex;
+
+}
 }
 
 
