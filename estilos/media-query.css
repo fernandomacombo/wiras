@@ -30,12 +30,16 @@
     border-bottom: 1px #3c5ef1 solid;
   }
 
+  header {
+    background: var(--bg) url(../img/img5.jpg) no-repeat center center/cover;
+  }
+
   .main-box {
      display: flex;
      flex-direction: row;
    }
 
-  .main-content {
+  .main-box .main-content  {
      flex: auto;
      margin: 20px 5px;
      width: 33.3%;
@@ -55,9 +59,7 @@
     margin:10px 10px;
    }
 
-   .content-box-left{
-     display: block;
-}
+
 
 .section-box .imagens #img-m7 {
   background: url(../img/img7.jpg) no-repeat center center/cover;
@@ -94,6 +96,138 @@ width: 60%;
   display: flex;
 
 }
+
+.contactos{
+  display: flex;
+  flex-direction: row;
+}
+
+.contactos div i{
+  display: inline-block;
+font-size: 1.5em;
+color:#2d3e8b;}
+.contactos div{
+  display:flex;
+  flex-direction: column;
+}
 }
 
 
+
+@media screen and (min-width: 992px) {
+
+body{
+ 
+  max-width: 1500px;
+  margin: auto;
+}
+  #burguer {
+    display: none;
+  }
+
+  .nav-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-box #item{
+    display:block;
+    margin: 0px;
+  }
+
+  
+  .nav-box #item li{
+     display:inline-block;
+   }
+
+  .nav-box #item li .link {
+    background-color: transparent;
+    margin-left: 10px;
+  }
+
+  .nav-box #item li .link:hover {
+    border-bottom: 1px #3c5ef1 solid;
+  }
+
+  header {
+    background: var(--bg) url(../img/img2.jpg) no-repeat center center/cover;
+  }
+
+  .main-box {
+     display: flex;
+     flex-direction: row;
+   }
+
+  .main-box .main-content  {
+     flex: auto;
+     margin: 20px 5px;
+     width: 33.3%;
+     background-color: rgba(0, 0, 0, 0.089);
+     align-items: center;
+     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.308);
+   }
+
+   .parceiros-box{
+     display:flex;
+     flex-wrap: wrap;
+   }
+
+   .parceiros-box article {
+    flex: auto;
+    width: 47%;
+    margin:10px 10px;
+   }
+
+
+
+.section-box .imagens #img-m7 {
+  background: url(../img/img7.jpg) no-repeat center center/cover;
+  display: block;
+}
+.section-box .imagens #img-m8 {
+  background: url(../img/img7.jpg) no-repeat center center/cover;
+  display: block;
+}
+ 
+
+
+#about .bg-dark article #img {
+  background: url(../img/img6.jpg) no-repeat center center/cover;
+  height: 100%;
+  width: 35%;
+  background-attachment: fixed;
+  display: block;
+  opacity: 1;
+  
+}
+
+.embrulho1{
+ 
+  padding: 2px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-20%, -50%);
+width: 60%;
+}
+
+#about .bg-dark article {
+  display: flex;
+
+}
+
+.contactos{
+  display: flex;
+  flex-direction: row;
+}
+
+.contactos div i{
+  display: inline-block;
+font-size: 1.5em;
+color:#2d3e8b;}
+.contactos div{
+  display:flex;
+  flex-direction: column;
+}
+}
