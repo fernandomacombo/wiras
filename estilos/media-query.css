@@ -110,6 +110,10 @@ color:#2d3e8b;}
   display:flex;
   flex-direction: column;
 }
+
+p {
+  font-size:18px;
+}
 }
 
 
@@ -120,6 +124,10 @@ body{
  
   max-width: 1500px;
   margin: auto;
+}
+
+p {
+  font-size:20px;
 }
   #burguer {
     display: none;
