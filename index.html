@@ -127,7 +127,7 @@
           <div id="img"></div>
 
           <div class="embrulho1">
-            <p>
+            <p id="definicao">
               <strong>A WIRA'S SERVIÇOS, Lda.</strong>, é uma sociedade comercial por quotas criada em 18 de julho de 2019, com sede na Av. Eduardo Mondlane, nº 1421, 1º andar flat 2, Bairro Central A, Distrito Municipal de KamPfumo, Maputo-Moçambique. A empresa oferece serviços de higiene, limpeza e conservação ambiental. Além disso, a WIRA'S também proporciona treinamentos específicos para cada função, assegurando acompanhamento contínuo por parte dos encarregados de limpeza, para atender às necessidades individuais dos clientes com soluções adequadas e garantir os melhores resultados.
             </p>
 
@@ -370,6 +370,7 @@
         }
       }
 
+
       function clickMenu() {
         if (item.style.display == "block") {
           item.style.display = "none";
@@ -377,46 +378,6 @@
           item.style.display = "block";
         }
       }
-
-    
-  const slides = document.querySelectorAll('.slide');
-  let currentIndex = 0;
-
-  function showSlide(index) {
-    const totalSlides = slides.length;
-    slides.forEach((slide, i) => {
-      slide.style.transform = `translateX(${100 * (i - index)}%)`;
-    });
-  }
-
-  function nextSlide() {
-    currentIndex = (currentIndex + 1) % slides.length;
-    showSlide(currentIndex);
-  }
-
-  setInterval(nextSlide, 3000); // Muda o slide a cada 3 segundos
-
-  // Inicializa o primeiro slide
-  showSlide(currentIndex);
-
-
-
-
-
-      // Toggle do menu
-function clickMenu() {
-  const menu = document.getElementById('item');
-  menu.classList.toggle('active');
-}
-
-// Responsivo
-function mudarTamanho() {
-  const largura = window.innerWidth;
-  const menu = document.getElementById('item');
-  if (largura > 768) {
-    menu.classList.remove('active');
-  }
-}
 
     </script>
   </body>
